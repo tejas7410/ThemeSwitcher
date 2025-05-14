@@ -56,7 +56,6 @@ module.exports = {
 ```
 
 PostCSS Config
-Your postcss.config.js should contain:
 
 ```bash
 module.exports = {
@@ -100,7 +99,3 @@ This project is licensed under the MIT License.
 
 🙋‍♂️ Author
 Made with ❤️ by Your Name
-
-```
-
-```
