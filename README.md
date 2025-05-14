@@ -34,10 +34,14 @@ cd theme-toggle-app
 
 ```bash
 npm install
-🔧 Configuration
+```
+
+##🔧 Configuration
 Tailwind CSS
+
 Ensure your tailwind.config.js has the following:
 
+```bash
 module.exports = {
   darkMode: 'class',
   content: [
@@ -49,9 +53,12 @@ module.exports = {
   },
   plugins: [],
 }
+```
+
 PostCSS Config
 Your postcss.config.js should contain:
 
+```bash
 module.exports = {
   plugins: {
     tailwindcss: {},
